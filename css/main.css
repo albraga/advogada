@@ -1,9 +1,29 @@
 
-.navbar-default {
-  background-color: #343843;
+body {
+  background-color: #ececec;
+}
+
+a {color:white;}      /* unvisited link */
+a:visited {color:white;}  /* visited link */
+a:hover {color: #e79623;}
+a:active {
+  color: #e79623;
+}
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+.navbar-custom {
+  color: white;
+  font-family: 'Roboto', Arial, Helvetica, Verdana, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .navbar-brand {
-    height: 96px;
-    padding-top: 0;
+  height: 96px;
+  padding-top: 0;
 }
