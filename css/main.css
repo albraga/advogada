@@ -23,10 +23,6 @@ a:active {
   font-weight: 400;
 }
 
-.samesize > ul > li {
-    width: 100px !important;
-}
-
 .navbar-brand {
   height: 96px;
   padding-top: 0;
